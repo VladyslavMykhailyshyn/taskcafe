@@ -1,3 +1,4 @@
+create extension pgcrypto;
 CREATE OR REPLACE FUNCTION unique_short_id()
 RETURNS TRIGGER AS $$
 
